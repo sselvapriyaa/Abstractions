@@ -10,7 +10,8 @@ package abstractions;
  * @author Gladwin
  */
 public class Goofy extends CartoonCharacter {
-
+    String gender;
+    String creator;
     public void animation(int frameRate) {
         System.out.println("");
     }
@@ -18,4 +19,24 @@ public class Goofy extends CartoonCharacter {
     public void stop() {
         System.out.println("");
     } 
+
+    @Override
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    @Override
+    public void setCreator(String creator) {
+        this.creator=creator;
+    }
+
+    @Override
+    public String getGender() {
+        return gender;
+    }
+
+    @Override
+    public String getCreator() {
+       return creator;
+    }
 }

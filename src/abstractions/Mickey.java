@@ -19,4 +19,24 @@ public class Mickey extends CartoonCharacter {
         System.out.println("");
     }
 
+    @Override
+    public void setGender(String gender) {
+        
+    }
+
+    @Override
+    public void setCreator(String creator) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public String getGender() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public String getCreator() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 }
