@@ -10,33 +10,34 @@ package abstractions;
  * @author Gladwin
  */
 public class Mickey extends CartoonCharacter {
-
+    String gender;
+    String creator;
     public void animation(int frameRate) {
-        System.out.println("");
+        System.out.println("The number of frames per second is ");
     }
 
     public void stop() {
-        System.out.println("");
+       // System.out.println("");
     }
 
     @Override
     public void setGender(String gender) {
-        
+        this.gender = gender;
     }
 
     @Override
     public void setCreator(String creator) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        this.creator=creator;
     }
 
     @Override
     public String getGender() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return gender;
     }
 
     @Override
     public String getCreator() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return creator;
     }
 
 }
