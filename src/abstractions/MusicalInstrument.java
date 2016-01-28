@@ -7,15 +7,8 @@ package abstractions;
 
 /**
  *
- * @author sanandamirtharaj
+ * @author Gladwin
  */
-public class Keyboard extends Instruments {
-
-    public void play(String notes) {
-        System.out.println("");
-    }
-
-    public void stop() {
-        System.out.println("");
-    }
+public class MusicalInstrument {
+    
 }

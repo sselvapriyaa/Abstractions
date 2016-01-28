@@ -7,9 +7,9 @@ package abstractions;
 
 /**
  *
- * @author Gladwin
+ * @author sanandamirtharaj
  */
-public class Guitar extends Instrument {
+public class Piano extends Instrument {
 
     public void play(String notes) {
         System.out.println("");
@@ -18,5 +18,4 @@ public class Guitar extends Instrument {
     public void stop() {
         System.out.println("");
     }
-
 }

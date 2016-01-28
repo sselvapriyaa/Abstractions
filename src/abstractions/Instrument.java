@@ -9,11 +9,11 @@ package abstractions;
  *
  * @author sanandamirtharaj
  */
-public abstract class Instruments {
+public abstract class Instrument {
 
     private String instrumentNumber;
-    private String color;
-    private String manufacturer;
+    private String origin;
+    private String classification;
 
     public abstract void play(String notes);
 
@@ -23,24 +23,24 @@ public abstract class Instruments {
         return instrumentNumber;
     }
 
-    public String getColor() {
-        return color;
+    public String getOrigin() {
+        return origin;
     }
 
-    public String getManufacturer() {
-        return manufacturer;
+    public String getClassification() {
+        return classification;
     }
 
     public void setInstrumentNumber(String InstrumentNumber) {
         this.instrumentNumber = InstrumentNumber;
     }
 
-    public void setColor(String color) {
-        this.color = color;
+    public void setOrigin(String origin) {
+        this.origin = origin;
     }
 
-    public void setManufacturer(String manufacturer) {
-        this.manufacturer = manufacturer;
+    public void setClasification(String classification) {
+        this.classification = classification;
     }
 
 }

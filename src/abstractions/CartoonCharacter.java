@@ -17,9 +17,7 @@ public abstract class CartoonCharacter extends Character{
 
     public abstract void stopAnimation();
 
-    
-
-   
+     
 
     public String getCostume() {
         return costume;
@@ -27,7 +25,6 @@ public abstract class CartoonCharacter extends Character{
 
     
     
-
     public void setCostume(String costume) {
         this.costume = costume;
     }
