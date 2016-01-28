@@ -13,34 +13,14 @@ public abstract class Instrument {
 
     private String instrumentNumber;
     private String origin;
-    private String classification;
+    String classification;
 
-    public abstract void play(String notes);
+    public abstract void setInstrumentNumber(String instrumentNumber);
+    public abstract void setOrigin(String origin);
+    public abstract String getInstrumentNumber();
+    public abstract String getOrigin();
 
-    public abstract void stop();
-
-    public String getInstrumentNumber() {
-        return instrumentNumber;
-    }
-
-    public String getOrigin() {
-        return origin;
-    }
-
-    public String getClassification() {
-        return classification;
-    }
-
-    public void setInstrumentNumber(String InstrumentNumber) {
-        this.instrumentNumber = InstrumentNumber;
-    }
-
-    public void setOrigin(String origin) {
-        this.origin = origin;
-    }
-
-    public void setClasification(String classification) {
-        this.classification = classification;
-    }
-
+    
+   
+   
 }

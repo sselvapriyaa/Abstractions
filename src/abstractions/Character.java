@@ -10,9 +10,9 @@ package abstractions;
  * @author Gladwin
  */
 public abstract class Character {
-     private String gender;
+    private String gender;
     private String creator;
-     String costume;
+    String costume;
     public abstract void setGender(String gender);
     public abstract void setCreator(String creator);
     public abstract String getGender();

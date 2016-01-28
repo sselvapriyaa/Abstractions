@@ -10,13 +10,34 @@ package abstractions;
  * @author Gladwin
  */
 public class Guitar extends Instrument {
-
-    public void play(String notes) {
-        System.out.println("");
+    String instrumentNumber;
+    String origin;
+    public void playMusic(String notes) {
+        System.out.println("Play the chords for Guitar");
     }
 
-    public void stop() {
-        System.out.println("");
+    public void endMusic() {
+        
+    }
+
+    @Override
+    public void setInstrumentNumber(String instrumentNumber) {
+        this.instrumentNumber=instrumentNumber;
+    }
+
+    @Override
+    public void setOrigin(String origin) {
+        this.origin=origin;
+    }
+
+    @Override
+    public String getInstrumentNumber() {
+        return instrumentNumber;
+    }
+
+    @Override
+    public String getOrigin() {
+        return origin;
     }
 
 }
