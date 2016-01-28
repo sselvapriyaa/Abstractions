@@ -16,11 +16,11 @@ public abstract class Instrument {
     String classification;
 
     public abstract void setInstrumentNumber(String instrumentNumber);
+
     public abstract void setOrigin(String origin);
+
     public abstract String getInstrumentNumber();
+
     public abstract String getOrigin();
 
-    
-   
-   
 }

@@ -10,14 +10,16 @@ package abstractions;
  * @author Gladwin
  */
 public class Mickey extends CartoonCharacter {
+
     String gender;
     String creator;
+
     public void startAnimation(int frameRate) {
-        System.out.println("The animation speed is " +frameRate );
+        System.out.println("Start the motion of Mickey");
     }
 
     public void stopAnimation() {
-       
+        System.out.println("Stop the motion of Mickey");
     }
 
     @Override
@@ -27,7 +29,7 @@ public class Mickey extends CartoonCharacter {
 
     @Override
     public void setCreator(String creator) {
-        this.creator=creator;
+        this.creator = creator;
     }
 
     @Override

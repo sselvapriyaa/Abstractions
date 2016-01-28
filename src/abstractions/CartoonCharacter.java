@@ -9,22 +9,16 @@ package abstractions;
  *
  * @author Gladwin
  */
-public abstract class CartoonCharacter extends Character{
-
-   
+public abstract class CartoonCharacter extends Character {
 
     public abstract void startAnimation(int frameRate);
 
     public abstract void stopAnimation();
 
-     
-
     public String getCostume() {
         return costume;
     }
 
-    
-    
     public void setCostume(String costume) {
         this.costume = costume;
     }
