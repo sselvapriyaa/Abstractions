@@ -12,11 +12,11 @@ package abstractions;
 public class SpongeBob extends CartoonCharacter {
     String gender;
     String creator;
-    public void animation(int frameRate) {
+    public void startAnimation(int frameRate) {
         System.out.println("");
     }
 
-    public void stop() {
+    public void stopAnimation() {
         System.out.println("");
     }
 

@@ -13,9 +13,9 @@ public abstract class CartoonCharacter extends Character{
 
    
 
-    public abstract void animation(int frameRate);
+    public abstract void startAnimation(int frameRate);
 
-    public abstract void stop();
+    public abstract void stopAnimation();
 
     
 

@@ -12,11 +12,11 @@ package abstractions;
 public class Mickey extends CartoonCharacter {
     String gender;
     String creator;
-    public void animation(int frameRate) {
+    public void startAnimation(int frameRate) {
         System.out.println("The number of frames per second is ");
     }
 
-    public void stop() {
+    public void stopAnimation() {
        // System.out.println("");
     }
 
