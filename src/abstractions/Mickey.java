@@ -13,7 +13,7 @@ public class Mickey extends CartoonCharacter {
     String gender;
     String creator;
     public void startAnimation(int frameRate) {
-        System.out.println("The number of frames per second is " +frameRate );
+        System.out.println("The animation speed is " +frameRate );
     }
 
     public void stopAnimation() {

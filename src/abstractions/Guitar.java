@@ -13,13 +13,13 @@ public class Guitar extends Instrument {
     String instrumentNumber;
     String origin;
     public void playMusic(String notes) {
-        System.out.println("Play the chords for Guitar");
+        System.out.println("");
     }
 
     public void endMusic() {
         
     }
-
+ 
     @Override
     public void setInstrumentNumber(String instrumentNumber) {
         this.instrumentNumber=instrumentNumber;

@@ -13,7 +13,7 @@ public class Piano extends Instrument {
     String instrumentNumber;
     String origin;
     public void playMusic(String notes) {
-        System.out.println("Play the notes for Piano");
+        System.out.println("");
     }
 
     public void endMusic() {
